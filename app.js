@@ -16,7 +16,7 @@ counters.forEach(counter =>{
 
             counter.innerText = `${Math.ceil(c + increment)}`;
             
-            setTimeout(updateCounter,1000);
+            setTimeout(updateCounter,10);
 
         }
 
